@@ -1,0 +1,58 @@
+
+CONTEXTO:
+    La inmobiliaria “Casa Feliz”, necesita desarrollar una aplicación que permita controlar la venta de 
+    departamentos en un nuevo proyecto ubicado en su comuna. Este proyecto tiene a la venta 40 
+    departamentos en un edificio de 10 pisos, donde en cada piso se encuentran disponibles 4 
+    departamentos.
+
+El sistema debe permitir las siguientes operaciones, a través de un menú: 
+
+    1. Comprar departamento 
+    2. Mostrar departamentos disponibles 
+    3. Ver listado de compradores 
+    4. Mostrar ganancias totales 
+    5. Salir
+
+
+1. Comprar departamento: 
+    El sistema debe solicitar al cliente el departamento a comprar. Existen 
+    4 departamentos por piso. 
+    En el piso 1, se encuentra el departamento tipo A, B, C y D y lo mismo se replica para el resto de 
+    los otros pisos.
+    Ejemplo: Si un cliente compra el departamento A en el piso 9, este sería A9.
+
+    Se debe registrar el Run de la persona que comprará cada departamento.
+    El RUN se debe registrar en formato de número, sin guion ni puntos (Ejemplo: 12.345.678-9, debe ser 12345678 sin dígito verificador).
+    Posteriormente debe mostrar un mensaje que indique que la operación se ha realizado correctamente.
+
+2. Mostrar departamentos disponibles: 
+    El sistema debe desplegar el estado actual de la venta de 
+    los departamentos. Esto se debe desplegar de la misma forma que se muestra en la imagen de la 
+    opción de “Comprar Departamento”.
+
+3. Ver listado de compradores: 
+    El sistema debe desplegar el listado de compradores por RUN, 
+    ordenados de menor a mayor, con la finalidad encontrar fácilmente a un comprador.
+
+
+4. Mostrar ventas totales: 
+    El sistema debe calcular el costo por concepto de ventas individuales y totales de
+    cada departamento A-B-C-D, desplegando toda la información
+
+    Los precios de los departamentos, son los siguientes:
+    Tipo A, 3.800 UF
+    Tipo B, 3.000 UF
+    Tipo C, 2.800 UF
+    Tipo D, 3.500 UF
+
+
+OTRAS CONSIDERACIONES:
+    El sistema debe validar las opciones del menú.
+    Cada opción del menú, debe ejecutarse a través de funciones.
+    La opción Salir, debe mostrar un mensaje de salida del sistema, su nombre, apellido y la 
+    fecha actual.
+    El sistema debe realizar todas las validaciones necesarias requeridas en el ingreso de 
+    datos.
+    Los datos ingresados se almacenan en arreglos. (Seleccione el tipo de arreglo, de acuerdo 
+    a su criterio).
+    Considere listas para alguna de las opciones.
